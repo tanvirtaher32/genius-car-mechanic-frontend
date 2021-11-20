@@ -8,7 +8,7 @@ const AddService = () => {
     const onSubmit = data => {
 
 
-        axios.post('http://localhost:5000/services',data)
+        axios.post('https://pure-tundra-89949.herokuapp.com/services',data)
         .then(res => {
             if(res.data.insertedId){
                 alert('data inserted successfully');
