@@ -1,0 +1,19 @@
+.add-service form{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.add-service form input,textarea{
+    width:40%;
+    margin: 10px;
+    border:2px solid peru;
+    border-radius:10px;
+}
+
+.btn{
+    background-color:peru
+}
